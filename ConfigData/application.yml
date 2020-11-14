@@ -9,4 +9,4 @@ spring:
         native:
           search-locations: classpath:offline-repository/
 server:
-	port: 8001
+  port: 8001
