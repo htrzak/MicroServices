@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/htrzak/MicroServices
+          search-paths: ConfigData
+        # "native" is used when the native profile is active, for local test with a classpath repo:
+        native:
+          search-locations: classpath:offline-repository/
+server:
+	port: 8001
